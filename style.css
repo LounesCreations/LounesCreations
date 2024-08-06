@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+    height: auto;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fad0de;
+    height: 250px;
+    width: 100%;
+}
+
+.titre {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    bottom: 100px;
+}
+
+.imageLogoTitre {
+    height: 190px;
+    position: relative;
+    top: 30px;
+    left: 250px;
+}
+
+nav {
+    position: relative;
+    left: 35%;
+    bottom: 50px;
+}
+
+a {
+    color: black;
+    font-size: large;
+    text-decoration: overline 2px;
+}
+
+.bienvenu {
+    background-color: #805b65;
+    height: 500px;
+    position: relative;
+    top: -55px;
+}
