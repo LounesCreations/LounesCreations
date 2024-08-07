@@ -23,10 +23,10 @@ header {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: italic;
-    text-align: center;
     font-size: 60px;
     position: relative;
     bottom: 100px;
+    left: 35.5%;
 }
 
 .imageLogoTitre {
@@ -50,7 +50,32 @@ a {
 
 .bienvenu {
     background-color: #805b65;
-    height: 500px;
+    height: 700px;
     position: relative;
     top: -55px;
+}
+
+.bienvenu video{
+    height: 100%;
+}
+
+.videoEtText {
+    height: 90%;
+    width: 94%;
+    position: relative;
+    top: 40px;
+    left: 3%;
+    background-color: #fad0de;
+}
+
+.videoEtText h1 {
+    position: relative;
+    text-align: right;
+    right: 5%;
+    top: -90%;
+    font-size: 40px;
+    text-decoration: underline;S
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
 }

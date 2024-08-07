@@ -1,0 +1,9 @@
+.msgBienvenu {
+    background-color: #fad0de;
+    position: relative;
+    height: 88%;
+    width: 100px;
+    right: 60px;
+    left: 88%;
+    top: -80%;
+}
