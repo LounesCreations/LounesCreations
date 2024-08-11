@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #fad0de;
     height: auto;
     margin: 0;
     border: 0;
@@ -55,27 +55,98 @@ a {
     top: -55px;
 }
 
-.bienvenu video{
-    height: 100%;
-}
-
 .videoEtText {
     height: 90%;
     width: 94%;
     position: relative;
-    top: 40px;
+    top: 35px;
     left: 3%;
     background-color: #fad0de;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
 }
 
-.videoEtText h1 {
+.textBienvenue {
     position: relative;
-    text-align: right;
-    right: 5%;
-    top: -90%;
-    font-size: 40px;
-    text-decoration: underline;S
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
+    height: 100%;
+    width: 40%;
+    background-color: #eee4e0;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.textBienvenue p {
+    font-size: 30px;
+}
+
+.textBienvenue h1 {
+    font-size: 60px; 
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bienvenu video {
+    height: 100%;
+    width: 60%;
+    position: relative;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.exemple {
+    background-image: url(background1.jpg);
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: -55px;
+}
+
+.exempleTitre {
+    background-color: #3d3e40;
+    position: relative;
+    left: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 10px 30PX;
+    border-radius: 20px;
+}
+
+.exempleTitre h1 {
+    font-family: "Amatic SC", sans-serif;
     font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    color: white;
+    font-size: 50PX;
+}
+
+.exemplePresentoire {
+    background-color: rgb(95, 95, 95);
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 26.5%;
+    background-color: transparent;
+}
+
+.exempleConteneur {
+    background-color: transparent;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+}
+
+.exempleArticle {
+    background-color: #1a1a1a;
+    color: white;
+    height: 262.109px;
+    width: 262.109px;
+    margin: 10px;
 }
