@@ -23,16 +23,16 @@ header {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: italic;
-    font-size: 60px;
+    font-size: 80px;
     position: relative;
-    bottom: 100px;
-    left: 35.5%;
+    bottom: 160px;
+    left: 33.5%;
 }
 
 .imageLogoTitre {
-    height: 190px;
+    height: 90%;
     position: relative;
-    top: 30px;
+    top: 10px;
     left: 250px;
 }
 
@@ -46,6 +46,9 @@ a {
     color: black;
     font-size: large;
     text-decoration: overline 2px;
+    padding: 6px;
+    position: relative;
+    top: -70px;
 }
 
 .bienvenu {
@@ -61,21 +64,25 @@ a {
     position: relative;
     top: 35px;
     left: 3%;
-    background-color: #fad0de;
+    background-color: transparent;
     display: flex;
     justify-content: flex-start;
     align-items: stretch;
     flex-wrap: nowrap;
+    border-radius: 40px;
 }
 
 .textBienvenue {
     position: relative;
     height: 100%;
-    width: 40%;
+    width: 30%;
     background-color: #eee4e0;
     flex-shrink: 0;
     text-align: left;
     padding-left: 20px;
+    text-align: center;
+    padding-right: 20px;
+    border-radius: 40px;
 }
 
 .textBienvenue p {
@@ -95,11 +102,23 @@ a {
 }
 
 .bienvenu video {
-    height: 100%;
+    height: 80%;
     width: auto;
     position: relative;
     flex-shrink: 0;
     object-fit: cover;
+    top: 10%;
+    left: 8%;
+    border-radius: 40px;
+}
+
+.bienvenuContourVideo {
+    background-color: #eee4e0;
+    position: relative;
+    left: 100px;
+    height: auto;
+    width: 61%;
+    border-radius: 40px;
 }
 
 .exemple {
