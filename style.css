@@ -48,7 +48,7 @@ a {
     text-decoration: overline 2px;
     padding: 6px;
     position: relative;
-    top: -70px;
+    top: -730px;
 }
 
 .bienvenu {
@@ -102,12 +102,12 @@ a {
 }
 
 .bienvenu video {
-    height: 80%;
+    height: 64%;
     width: auto;
     position: relative;
     flex-shrink: 0;
     object-fit: cover;
-    top: 10%;
+    top: 17%;
     left: 8%;
     border-radius: 40px;
 }
