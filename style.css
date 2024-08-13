@@ -4,6 +4,7 @@ body {
     margin: 0;
     border: 0;
     padding: 0;
+    width: 100%;
 }
 
 * {
@@ -196,4 +197,64 @@ a {
     width: 100%;
     border-radius: 10px;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 760px) {
+    .bienvenuContourVideo {
+        display: none;
+    }
+
+    .textBienvenue {
+        width: 94%;
+        height: auto;
+        top: -2%;
+    }
+
+    .bienvenu {
+        height: 500px;
+    }
+
+    .imageLogoTitre {
+        left: -3%;
+    }
+
+    .titre {
+        text-align: center;
+        font-size: 350%;
+        position: relative;
+        left: 7%;
+        width: 100%;
+    }
+
+    .exemplePresentoire {
+        padding-left: 7%;
+        padding-right: 0;
+        margin-right: 0;
+        border-right: 0;
+        width: 700px;
+    }
+
+    .exempleConteneur {
+        width: 700px;
+    }
+
+    a {
+        position: relative;
+        left: -12%;
+        padding: 2;
+
+    }
+
+    .exempleTitre {
+        left: 35%;
+    }
+
+    .titre h1 {
+        width: 1%;
+    }
+
+    nav {
+        top: -5%;
+        right: 100%;
+    }
 }
