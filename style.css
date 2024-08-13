@@ -48,7 +48,7 @@ a {
     text-decoration: overline 2px;
     padding: 6px;
     position: relative;
-    top: -730px;
+    top: -75px;
 }
 
 .bienvenu {
@@ -156,7 +156,7 @@ a {
     height: 2000px;
     display: flex;
     flex-wrap: wrap;
-    padding: 30px 26.5%;
+    padding: 30px 19%;
     background-color: transparent;
 }
 
@@ -165,13 +165,35 @@ a {
     height: 200px;
     display: flex;
     flex-wrap: wrap;
-    width: 900px;
+    width: 1000px;
 }
 
 .exempleArticle {
     background-color: #1a1a1a;
     color: white;
-    height: 262.109px;
-    width: 262.109px;
+    height: 300px;
+    width: 300px;
     margin: 10px;
+    border-radius: 10px;
+}
+
+.exempleArticle a {
+    position: relative;
+    top: 0;
+    left: -2%;
+}
+
+.exempleArticle button {
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 90%;
+    width: 90%;
+    background-color: transparent;
+}
+
+.exempleArticle img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
 }
